@@ -64,7 +64,7 @@ One of the problems encountered when using `SingleSensorRawDataLogger` and `Sing
 
 This sketch was developed to guide the user during each test by emitting a sequence of beeps that count in the test and then indicate when each touch is required.
 
-This script again uses the CapactiveSensor library to detect touches on a single attached touch sensor. Like `SingleSensorRawDataLogger` the number of samples read each time can be configured. Unlike `SingleSensorAvgDataLogger` this sketch does not take average readings, since these were not found to be useful.
+This script again uses the CapacitiveSensor library to detect touches on a single attached touch sensor. Like `SingleSensorRawDataLogger` the number of samples read each time can be configured. Unlike `SingleSensorAvgDataLogger` this sketch does not take average readings, since these were not found to be useful.
 
 Each reading is simply written to the Arduino's serial port, one reading per line. This simplified output makes it easier to import data into spreadsheets and to plot on the Arduino serial plotter.
 
